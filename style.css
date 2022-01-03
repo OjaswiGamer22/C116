@@ -1,0 +1,45 @@
+body{
+    background-position: center;
+    background-size:cover;
+}
+
+canvas{
+    border:3px dashed black;
+    margin-top:100px;
+    animation-name:Ojaswi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Ojaswi {
+  0%{
+    box-shadow: 3px 3px 48px orange;
+  }
+  25%{
+    box-shadow: 3px 3px 48px lightskyblue;
+  }
+  50%{
+    box-shadow: 3px 3px 48px red;
+  }
+  75%{
+    box-shadow: 3px 3px 48px purple;
+  }
+  100%{
+    box-shadow: 3px 3px 48px green;
+  }
+       
+}
+
+h1{
+    color:whitesmoke;
+    font-family: 'Fira Sans', sans-serif;
+    animation-name:Ojaswi_Goel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Ojaswi_Goel{
+    50%{
+        font-size:80px;
+    }
+}
